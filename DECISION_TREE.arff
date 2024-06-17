@@ -1,0 +1,24 @@
+@relation decisiontree
+
+@attribute age {youth, middle-aged, senior}
+@attribute govt-employee {yes, no}
+@attribute student {yes, no}
+@attribute personal-vehicle {yes, no} 
+@attribute income {low, high, medium}
+@attribute provide-buspass {yes, no}
+
+@data
+youth, no, yes, no, low, yes
+senior, no, no, no, high, no
+youth, no, no, no, medium, yes
+senior, yes, no, yes, low, no
+middle-aged, no, no, no, low, yes
+middle-aged, yes, no, no, medium, yes
+middle-aged, yes, no, yes, high, no
+senior, yes, no, yes, high, no
+youth, no, yes, no, low, yes
+middle-aged, no, no, no, low, yes
+middle-aged, yes, no, no, high, no
+senior, no, no, no, low, yes
+middle-aged, no, no, no, medium, yes
+middle-aged, yes, no, no, low, yes
