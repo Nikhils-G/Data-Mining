@@ -1,0 +1,19 @@
+@relation naviebayes
+
+@attribute sid numeric
+@attribute cgpa {7to8, 8to9, 9to10, 5to6}
+@attribute coding-skills {excellent, fair, poor}
+@attribute soft-skills {excellent, fair, poor}
+@attribute hackathon-participation {yes, no}
+@attribute campus-placement {yes, no}
+
+@data
+1, 7to8, excellent, fair, yes, yes
+2, 8to9, fair, excellent, yes, yes
+3, 9to10, poor, fair, no, yes
+4, 5to6, poor, excellent, no, no
+5, 7to8, excellent, poor, no, no
+6, 8to9, fair, fair, yes, yes
+7, 9to10, poor, poor, no, no
+8, 7to8, fair, excellent, no, yes
+9, 9to10, excellent, fair, yes, yes
